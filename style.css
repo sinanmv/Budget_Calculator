@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.main
+{
+    background: url(./Resource/pexels-walid-ahmad-847402.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main h2
+{
+    font-size: 3rem;
+    font-weight: 450;
+    font-family: 'Patrick Hand', cursive;
+    /* letter-spacing: 0.5rem; */
+}
+.main p
+{
+    font-size: 1.5rem;
+}
+.incomemain{
+    height: 40px;
+    background-color: rgb(0, 145, 145);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.expensemain{
+    height: 40px;
+    background-color: rgb(183, 0, 0);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.tablemain
+{
+    margin: 50px 50px;
+
+}
